@@ -103,6 +103,16 @@ void printArray(int*array, int size){
 }
         void fill("Введи %d элементов: \n", size);
         for(int i=0, i<SIZE, ++i){
-            printf("array[%d]=, i);
+            printf("array[%d]= ", i);
             scanf("%d", &array[i])}
 gcc - wall - werror -wextra *.c
+
+#include <time.h>
+void fillRandom(int *array, int size){
+    srand(time(null));
+    //a+rand()%(b-a+1)
+    //null - ничего
+    for(int i=0, i<size, ++i){
+        array[i]=0+rand()%(size-0+1);
+    }
+}
