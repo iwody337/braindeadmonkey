@@ -116,3 +116,44 @@ void fillRandom(int *array, int size){
         array[i]=0+rand()%(size-0+1);
     }
 }
+//BubbleSort
+3 8 1 9 2 6// - набор чисел
+for (int i=0; i<size-1; ++i){//сколько шагов надо сделать 
+    for (int j=0; j=size-1-i; ++j){//сколько сравнить
+        if (a[j]>a[i]);
+        int temp=a[j];
+        a[j]=a[j+1];
+        a[j+1]=temp;
+    }
+}
+
+4 1 3 8 6
+for (int i=0; i<size-1; ++i){//сколько шагов надо сделать 
+    for (int j=0; j=size-1-i; ++j){//сколько сравнить
+        if (a[j]>a[i]);
+        int temp=a[j];
+        a[j]=a[j+1];
+        a[j+1]=temp;
+    }
+}
+{i=0;
+j=0;
+a[j]=4;
+a[i]=4;
+temp=4;
+a[j]=1;
+a[j+1]=4;
+1 4 3 8 6
+i=0
+j=1;
+a[1]=4;
+a[2]=3;
+temp=4;
+a[1]=4;
+a[2]=4;
+1 3 4 8 6
+a[i]=0;
+a[j]=3;
+a[3]=8;
+a[4]=6;
+1 3 4 6 8}
